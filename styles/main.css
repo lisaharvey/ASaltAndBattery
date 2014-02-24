@@ -1,0 +1,202 @@
+/*Fonts*/
+
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans|Krona+One);
+
+/*Main*/
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	font-family: 'Duru Sans',"Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+	font-size: 18pt;
+	color: #242424;
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h1, h2, h3 {
+	font-family: 'Krona One', Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+h1 {
+	font-size: 18pt;
+	color: #fff;
+	text-align: center;
+}
+
+h2, h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 36pt;
+	padding: 15px;
+}
+
+h3 {
+	font-size: 24pt;
+	color: #fff;
+	padding: 10px 0px;
+}
+
+/* Header */
+
+header {
+	background-image: url('../images/herobg.jpg');
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	height: 720px;
+}
+
+nav {
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	height: 140px;
+	padding: 25px 0px;
+	float: left;
+}
+
+#logo {
+	background-image: url('../images/logo.png');
+	width: 252px;
+	height: 92px;
+	float: left;
+	margin: 0px 15px;
+}
+
+ul#topnav {
+	font-family: 'Duru Sans',"Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+	float: right;
+	margin: 30px 0px;
+}
+
+ul#topnav li {
+	display: inline;
+	padding: 0px 45px;
+	font-size: 18pt;
+}
+
+ul#topnav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#topnav a:hover {
+	color:#5dcdb5;
+}
+
+.lefthero img {
+	margin-top: 45px; 
+}
+
+.lefthero {
+	width: 50%;
+	float: left
+}
+
+.righthero {
+	width: 50%;
+	float: right;
+}
+
+.righthero h1{
+	margin: 240px 0px;
+}
+
+
+/* About */
+
+section#about {
+	clear: both;
+	padding: 70px 0px;
+	background-color: #fafafa;
+}
+
+#about h2 {
+	color: #5dcdb5;
+}
+
+.leftabout {
+	width: 60%;
+	float: left;
+	margin-right: 25px;
+
+}
+
+.rightabout {
+	width: 35%;
+	float: right;
+}
+
+#quote {
+	font-family: 'Krona One', Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 24pt;
+}
+
+span {
+	font-size: 18pt;
+}
+
+/* Menu */
+
+section#menu {
+	background-image: url('../images/menubg.jpg');
+	background-size: 100%;
+	clear: both;
+	padding: 70px 0px;
+}
+
+#menu h2 {
+	color: #f95971;
+}
+
+.menus {
+	width: 33%;
+	float: left;
+}
+
+#menu ul {
+	text-align: center;
+}
+
+#menu ul li {
+	line-height: 35px;
+}
+
+/* Footer */
+
+footer {
+	background-color: #242424;
+	clear: both;
+	width: 100%;
+	height: 280px;
+	padding: 20px 0;
+}
+
+footer p {
+	color: #fff;
+	line-height: 14px;
+}
+
+.leftfooter {
+	float: left;
+}
+
+.leftfooter p:last-child {
+	line-height: 35px;
+}
+
+.rightfooter {
+	float: right;
+}
+
+/* FIN */
